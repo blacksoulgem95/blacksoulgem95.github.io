@@ -1,0 +1,948 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Sofia Vicedomini - The Italian Programmer</title>
+    <link href="https://italianprogrammer.pizza/blog" />
+    <link type="application/atom+xml" rel="self" href="https://italianprogrammer.pizza/blog/feed.atom" />
+    <updated>2022-05-30T10:26:35+00:00</updated>
+    <id>https://italianprogrammer.pizza/blog/feed.atom</id>
+    <author>
+        <name>Sofia Vicedomini</name>
+    </author>
+                <entry>
+    <id>https://italianprogrammer.pizza/2022/03/21/work-ethics-why-people-are-leaving-their-jobs</id>
+    <link type="text/html" rel="alternate" href="https://italianprogrammer.pizza/2022/03/21/work-ethics-why-people-are-leaving-their-jobs" />
+    <title>Work Ethics: why people are leaving their jobs</title>
+    <published>2022-03-21T07:54:14+00:00</published>
+    <updated>2022-03-21T07:54:14+00:00</updated>
+    <author>
+        <name>Sofia Vicedomini</name>
+    </author>
+    <summary type="html">No one wants to work anymore - actually, no one ever wanted to....</summary>
+    <content type="html"><![CDATA[
+        <p>No one wants to work anymore - actually, no one ever wanted to lose their personal time for someone else's profit.</p>
+
+<p>We are seeing everywhere in the globe an actual crisis on finding workers, but why's that? Well, if you're asking
+yourself this question, you might be one of the problems.</p>
+
+<h2>What workers get</h2>
+
+<p>In most cases, people get a horrible work-life balance, an unsupportive employer and feel like cogs in a mechanism.</p>
+
+<p>They feel worthless to themselves because of work, not being able to spend time with their families and loved ones
+because they have to work, or because anxiety from work.</p>
+
+<p>A lot of people get on their hands too much work for what their mind can handle - even though their body might handle
+more; but we forget to remember that the most saturating stress is the mental one.</p>
+
+<p>Having to commute 1, 2, 3 hours per day, and losing this time in traffic or on public transit, instead of actually
+enjoying some time for yourself, will cause a mental breakdown at some point in your life.</p>
+
+<p>And if this stress is not enough, people face Queerphobic employers and coworkers, hazing, disrespect and harassment.</p>
+
+<div class="flex justify-center items-center flex-col">
+    <img src="/assets/img/01FYR9WEPZQQ2JS4NPQAFZ12HY/ragequit.png" alt="ragequit"/>
+    <p class="mt-0.5 text-sm text-gray-400">What's left of treating your employee like shite</p>
+</div>
+
+<h3>And there is even more!</h3>
+
+<p>Do you know the struggle of not being able to afford a house even if you work 2 full time jobs? This causes serious
+mental problems and breakdowns, leading to workers to feel miserable and useless to the society.</p>
+
+<p>Not being able to afford housing, food and care for your children, on a full time job, should not be the norm and yet it
+is in today's society.</p>
+
+<p>And if you deep dive even more, you'd find consultancy companies, where literally what in Italy is called "Body-Rental"
+happens: one company that makes mass-hiring of various figures and rents them to other companies. And no, "PaaS"
+(Person as a Service), will not help your company, it will only ruin your reputation.</p>
+
+<p>I wrote in the past an article that might help
+you <a href="/2022/02/09/inclusive-policies-for-the-21st-century-workplace/">understand how to improve your employees' life</a>.</p>
+
+<p>Because, if a job can't provide me with the security I need, why should I even bother losing my time for it?</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://italianprogrammer.pizza/2022/02/21/jigsaw-an-honest-review</id>
+    <link type="text/html" rel="alternate" href="https://italianprogrammer.pizza/2022/02/21/jigsaw-an-honest-review" />
+    <title>Jigsaw - an honest review</title>
+    <published>2022-02-21T19:43:09+00:00</published>
+    <updated>2022-02-21T19:43:09+00:00</updated>
+    <author>
+        <name>Sofia Vicedomini</name>
+    </author>
+    <summary type="html">Jigsaw is a new tool designed for generating static websites with blade templates, here&#039;s an honest review for this piece of software....</summary>
+    <content type="html"><![CDATA[
+        <p>Jigsaw is a new tool designed for generating static websites with blade templates, here's an honest review of this piece
+of software.</p>
+
+<p>Fun fact, this blog is built on top of Jigsaw, so all my experience with it is well documented on
+this <a href="//github.com/blacksoulgem95/blacksoulgem95.github.io">GitHub repo</a>!</p>
+
+<h2>Use Cases</h2>
+
+<p>So, Jigsaw is a fantastic tool to develop static website, but what are main use-cases for a static website?</p>
+
+<h3>1. Portfolio Websites</h3>
+
+<p>Most professionals use portfolio websites to show off their work and sell themselves to companies. As an example, this
+website has a portfolio section called "<a href="/projects">Projects</a>".</p>
+
+<h3>2. Databaseless Blogs</h3>
+
+<p>It's quite easy to develop a blog using a static website generator such as Jigsaw, create a collection of posts and
+categories, link them together, and start writing down markdowns of them. A markdown will be translated to an actual
+blog post.</p>
+
+<h3>3. Simple company websites</h3>
+
+<p>Most companies don't need a fancy website running on some weird backends, all they need is just a static generated
+website, as they will just showcase their services and products, while having a simple contact form (that you can insert
+with <a href="//typeform.com?utm_source=italianprogrammer.pizza">Typeform</a>)</p>
+
+<p>You can find even more examples at <a href="//builtwithjigsaw.com?utm_source=italianprogrammer.pizza">Built with Jigsaw Website</a>.</p>
+
+<hr />
+
+<p>I've been tinkering with Jigsaw for the whole weekend developing this website and get rid of the mess that my WordPress
+installation was, and it took me literally one day to get a blog site up and running with Jigsaw, and especially with a
+nice UI that WordPress couldn't give me out of the box (or without learning how to develop WP Themes).</p>
+
+<p>Being based on Laravel Mix and Blade templates, jigsaw's learning curve is extremely flat, especially if you come from
+experience with <a href="//laravel.com?utm_source=italianprogrammer.pizza">Laravel</a>, and comes with a set of pre-made templates
+you can start off.</p>
+
+<p>Everything is extremely customizable, being all the templates based on Tailwind CSS, hence any modification can be added
+with ease.</p>
+
+<p>Everything was ready out of the box to work properly in production, with little to none configuration
+(you'd just need to setup the base path for your url rewrites in the <code class="language-bash">
+config.production.php</code> file).</p>
+
+<p>The main hassle was developing a GitHub workflows to deploy it properly, and now it works in this way:</p>
+
+<ol>
+<li>Commit &amp; push to main branch your changes</li>
+<li>a on-push hook will trigger the deployment workflow</li>
+<li>the workflow will build the website for production and change the directory from 
+<code>build_production</code> to <code>docs</code> which is the supported folder that Github allows</li>
+<li>will commit everything and push to the <strong>live</strong> branch (literally a branch named live)</li>
+</ol>
+
+<p>GitHub is expecting a docs folder in the live branch to be used for the site hosting, hence it just works out.</p>
+
+<p>Also, is important to generate the CNAME file so that GitHub will not erase your custom domain settings at each
+deployment.</p>
+
+<p>Summing up, this weekend working with Jigsaw was a pleasure, and I strongly suggest anyone thinking about building a
+simple website to try it out!</p>
+
+<h2>Files required to deploy on GitHub Pages</h2>
+
+<h4>CNAME file</h4>
+
+<p><code>/source/CNAME.blade.php</code></p>
+
+<pre>
+<code class="language-markdown">
+---
+permalink: CNAME
+---
+italianprogrammer.pizza
+</code>
+</pre>
+
+<h4>Workflow file</h4>
+
+<p><code>/.github/workflows/build-docs.yml</code></p>
+
+<pre>
+<code class="language-yaml">
+on:
+  push:
+    branches:
+      - 'main'
+name: deploy
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+        with:
+          fetch-depth: 1
+
+      - name: Setup PHP Action
+        uses: shivammathur/setup-php@2.17.0
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: |
+          sudo apt update && sudo apt install git zip unzip -y
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "GitHubActions BOT"
+          composer update --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
+          composer install --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
+          npm install
+
+      - name: Build the site
+        run: npm run prod
+
+      - name: deploy
+        run: |
+          if [ -d "./docs" ]; then rm -Rf ./docs; fi
+          mv ./build_production ./docs
+          git add ./docs
+          git commit -m "Deployment of website - $(date)"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.DEPLOY_SECRET }}
+          branch: live
+          force: true
+</code>
+</pre>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://italianprogrammer.pizza/2022/02/19/la-mia-prima-esperienza-con-la-tv-italiana</id>
+    <link type="text/html" rel="alternate" href="https://italianprogrammer.pizza/2022/02/19/la-mia-prima-esperienza-con-la-tv-italiana" />
+    <title>La mia prima esperienza con la TV Italiana</title>
+    <published>2022-02-19T10:00:50+00:00</published>
+    <updated>2022-02-19T10:00:50+00:00</updated>
+    <author>
+        <name>Sofia Vicedomini</name>
+    </author>
+    <summary type="html">Il 24 Novembre 2021, mi hanno convocata in Mediaset a Zona Bianca di Rete 4, per parlare dei diritti e delle discriminazioni delle persone transgender in Italia....</summary>
+    <content type="html"><![CDATA[
+        <p>Il 24 Novembre 2021, mi hanno convocata in Mediaset a <a href="https://www.mediasetplay.mediaset.it/video/zonabianca/puntata-del-24-novembre_F310971001003401">Zona Bianca</a> di Rete 4, 
+per parlare dei diritti e delle discriminazioni delle persone transgender in Italia.</p>
+
+<p>Come tutti noi sappiamo, non solo per poter fare qualsiasi cosa in Italia si ha bisogno di una sentenza del giudice 
+(e chi ci è passato sa che le spese legali sono belle pesanti e spesso inaccessibili ai più), 
+ma si deve passare davanti alla discriminazione costante di chi, figlio di una mentalità xenofoba, ci considera solo prostitute con un pene.</p>
+
+<p>Alcuni di voi conosceranno <a href="/2022/01/19/cosa-significa-essere-transgender/">la mia storia</a>, pubblicata anche su Brave di Metropolitan Magazine, 
+dove racconto che io ho iniziato questo percorso in Scozia, tramite delle cliniche private, dove è molto più semplice e, 
+soprattutto, dove nessun giudice può mettere bocca su chi tu sia.</p>
+
+<p>Mentre cercavo di spiegare i problemi discriminatori derivati dall’essere costrettə ad avere un nome e un genere errato nei documenti, 
+e il pesante costo che c’è dietro, sfruttando una pausa generata da un problema di connessione, il vicedirettore de 
+“La Verità” e autore su “Libero”, <a href="https://twitter.com/franborgonovo">Francesco Borgonovo</a>, ha sentito il bisogno di fermarmi dicendo che tutti gli italiani 
+hanno problemi con la burocrazia e non dobbiamo piangerci addosso, per poi sviare il discorso sulla assenza di 
+mascherine in una manifestazione, all’aperto, a Roma, dove eravamo in zona bianca (niente obbligo di mascherine all’aperto).</p>
+
+<div class="flex justify-center align-center">
+ <img src="/assets/img/01FWDVM0RCTBZJKNEHV1A1P6AC/img_02.png" alt="Borgonovo" />
+</div>
+
+<p>La situazione lì si è scemata e si è passati a raccontare la storia di <a href="https://www.instagram.com/valentina_petrillo/?hl=it">Valentina Petrillo</a>, 
+un’atleta che è stata aggredita in studio da <a href="https://twitter.com/HoaraBorselli">Hoara Borselli</a>, opinionista e giornalista italiana, 
+con opinioni visibilmente associate al movimento TERF.</p>
+
+<p>Nonostante sia dimostrato che qualsivoglia vantaggio abbia avuto Valentina per la prima pubertà che ha fatto 
+(perché, appunto, la massa muscolare è influenzata dagli <strong>ormoni</strong>), è dimostrato che, in seguito a diversi anni di TOS 
+(Trattamento Ormonale Sostitutivo) in cui si quasi blocca il metabolismo del testosterone 
+(anche le donne hanno il testosterone in corpo in basse quantità, ricordiamocelo) e si integrano sostanziose quantità 
+di estrogeni (anche gli uomini hanno estrogeni in corpo in basse quantità, ricordiamocelo), questo vantaggio viene meno.</p>
+
+<p>E dirò di più, se si permettesse ai bambini e adolescenti transgender di accedere alla TOS, o ai PB 
+(Puberty Blockers, ritardanti della pubertà) per poi iniziare la TOS più in là con l’età senza dover 
+subire i mutamenti dovuti da una pubertà <strong>sbagliata</strong>, questo vantaggio non esisterebbe proprio.</p>
+
+<div class="flex justify-center align-center">
+ <img src="/assets/img/01FWDVM0RCTBZJKNEHV1A1P6AC/img_03.png" alt="Hoara Borselli e Valentina Petrillo" />
+</div>
+
+<p>La trasmissione lì ha virato vertiginosamente andando in una scuola di Pisa per raccontare la storia di Jeremiah, 
+un giovane ragazzo transgender che chiede la carriera alias, <strong>un suo diritto</strong>.</p>
+
+<p>La carriera alias permette agli studenti di avere su tutti i materiali pubblici della scuola il loro nome, 
+e tenere il loro deadname (nome morto, nome assegnato alla nascita) solo nei documenti legali, nell’attesa 
+di riuscire ad ottenere il permesso di un giudice per semplicemente poter essere se stesso.</p>
+
+<p>Ma secondo Borgonovo questo è inutile: secondo lui, infatti, Jeremiah dovrebbe solo farsi chiamare col suo nome dagli amici; 
+ignorando quando magari un insegnante di supplenza legge il deadname sul registro, 
+chiamandolo con quel nome e generando un vero e proprio dolore emotivo: chiamare una persona transgender 
+con il loro deadname e con i pronomi sbagliati è un vero e proprio <strong>atto di violenza</strong>.</p>
+
+<p>La Borselli poi ha dovuto iniziare un vuoto discorso rabbioso contro l’ammodernamento della lingua italiana 
+per trovare un genere neutro puro nella nostra lingua, invece di usare il maschile. Questa battaglia, 
+sostenuta da una grossa porzione della comunità LGBTQIA+, atta principalmente a far sentire a loro agio diverse 
+identità non binarie più sensibili sul tema dei pronomi, non è per nulla correlata ai discorsi che si stavano facendo.</p>
+
+<p>In chiusura, mi chiedono di parlare della storia di Jeremiah e come fosse simile alla mia, che, non lo è, 
+ogni persona ha una storia sua, complicata, che ha i propri traumi. Io inizio cercando di chiudere 
+la parentesi grammaticale, ma neanche trenta secondi che parlo e mi sento urlare addosso la Borselli 
+che ignorava totalmente quello che stavo dicendo; per poi finire a parlare dell’indirizzo di casa di J.K. Rowling.</p>
+
+<p><strong>L’indirizzo della Rowling è pubblico, conosciuto dai fan da anni</strong> che, da tempo immemore, si fanno <strong>foto davanti casa sua</strong>; 
+ma recentemente è stato twittato da una minoranza di attivistə molto incazzate, e direi anche per giusto 
+motivo dato che i <strong>testi recenti della Rowling</strong> sono stati usati al <a href="https://www.nbcnews.com/feature/nbc-out/gop-senator-quotes-j-k-rowling-while-blocking-vote-lgbtq-n1231569">Senato Americano per <strong>negare diritti 
+alle persone transgender</strong></a>, 
+specialmente il suo recente saggio contro la comunità transgender, 
+che è stato <strong>pesantemente criticato da <a href="https://mermaidsuk.org.uk/news/dear-jk-rowling/">diverse organizzazioni senza scopo di lucro</a></strong>, 
+come <strong>Mermaids UK, un’organizzazione che tutela i bambini</strong> in Regno Unito.</p>
+
+<p>Questi tweet hanno spinto diverse persone a mandare lettere di ogni tipo alla Rowling, <strong>incluse minacce</strong>, che ovviamente <strong>tutta la comunità condanna</strong>; 
+ma non si può dare la colpa alla intera comunità per le <strong>azioni di pochi</strong>. Sarebbe come dire che <strong>tutti gli italiani sono mafiosi</strong>.</p>
+
+<div class="flex justify-center align-center">
+ <img src="/assets/img/01FWDVM0RCTBZJKNEHV1A1P6AC/img_04.png" alt="Hoara Borselli e Valentina Petrillo" />
+</div>
+
+<p>In conclusione, l’unica ospite <strong>empatica</strong> è stata <a href="https://www.instagram.com/albaparietti/?hl=it">Alba Parietti</a>, 
+che ha provato a proteggere Valentina nello spezzone sullo sport, e che mi sento di ringraziare per la sua empatia; e sinceramente fa strano, 
+perché l’<strong>empatia dovrebbe essere la norma</strong>, e non una qualità rara.</p>
+
+<p>L’intero pezzo dura venti minuti circa, ed è visionabile sul sito di Mediaset Infinity, 
+cercando la puntata del 24 Novembre 2021 di Zona Bianca.</p>
+
+<p>Cosa ne penso io? Penso che lo show è strutturato su <strong>dibattiti sterili</strong>, 
+devono per forza avere un <strong>contraddittorio, persino sui fatti</strong>. In venti minuti si è fatto un <strong>calderone di cose 
+diverse e lasciate a metà senza chiudere un discorso</strong>, la conduzione è stata spiacevole: 
+gli <strong>ospiti molesti</strong> sono stati lasciati in pace mentre interrompevano, mentre in altre produzioni Europee, 
+ad esempio i canali della British Broadcasting Network o France24, queste persone sarebbero state <strong>mutate o cacciate</strong> dallo studio.</p>
+
+<p>La mia scelta di non avere la televisione in casa, si rivela, ancora una volta, 
+la scelta più saggia per preservare la mia salute mentale, 
+soprattutto se il livello di discussione è quello del Baretto da Zì Peppe lo Zozzone.</p>
+
+<p>Quest’anno scriverò una letterina a Babbo Natale: gli chiederò una televisione italiana <strong>sana</strong>.</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://italianprogrammer.pizza/2022/02/09/inclusive-policies-for-the-21st-century-workplace</id>
+    <link type="text/html" rel="alternate" href="https://italianprogrammer.pizza/2022/02/09/inclusive-policies-for-the-21st-century-workplace" />
+    <title>Inclusive policies for the 21st Century Workplace</title>
+    <published>2022-02-09T09:45:50+00:00</published>
+    <updated>2022-02-09T09:45:50+00:00</updated>
+    <author>
+        <name>Sofia Vicedomini</name>
+    </author>
+    <summary type="html">In the modern era more than ever there is the need to write inclusive policies to help the workforce feel safe in the working environment. Let me share a few &quot;draft&quot; policies that should be embraced by all companies worldwide....</summary>
+    <content type="html"><![CDATA[
+        <p>In the modern era more than ever there is the need to write inclusive policies to help the workforce feel safe in the
+working environment.</p>
+
+<p>Let me share a few "draft" policies that should be embraced by all companies worldwide.</p>
+
+<h2>Name Policy</h2>
+
+<p>The name of an individual is a <strong>core part of their identity</strong> and their personality, and everyone should be allowed to
+choose their elected name to use for work.</p>
+
+<p>In particular for transgender people this is important as using the <strong>deadname</strong> is extremely <strong>painful</strong> for them - it
+causes extreme <strong>discomfort</strong> if not even <strong>depression</strong>.</p>
+
+<p>It is important to allow people to have <strong>emails, accounts and documents in their elected name</strong>, whenever possibile,
+and to reclude the "legal" name to only situation in which is strictly required.</p>
+
+<h2>Bathroom policy</h2>
+
+<p><strong>Everyone should be able to use the bathroom they feel more comfortable in</strong>, transgender women should be allowed in
+women only spaces and transgender men should be allowed in men only spaces.</p>
+
+<p>Cis-women who are afraid of trans-women in women spaces are actually afraid of men, without understanding that
+trans-women are women too and are afraid of men too.</p>
+
+<p>Allowing this fear to drive the "bathroom policy" and not allowing trans people in their true gender's bathroom only **
+allows transphobia to proliferate and discriminates even further a marginalised group of society**.</p>
+
+<p>Is also important to provide <strong>gender-neutral bathrooms</strong> where anyone can enter <strong>without discrimination</strong>, this will
+not only help gender non-conforming and gender-questioning people, but also help <strong>eradicate the fear of a predator
+being in a bathroom</strong>.</p>
+
+<p>If there's space, consider also adding a <strong>shower room</strong> to allow people who come with bicycles, walking or other
+body-intensive activity, to take a shower and change their clothes before starting to work.</p>
+
+<h2>Discrimination policy</h2>
+
+<p><strong>Discrimination in the workplace reduces revenue</strong>. Every business owner should know that. Any employee who
+discriminate based on sex, religion, ethnicity, sexual orientation, gender identity and/or disability should face
+serious consequences: if they're left doing harm, they will make your workforce flee to the competition, and with them,
+your business secrets.</p>
+
+<p>I have personally heard stories of bosses saying to their employees stuff like
+"<em><strong>You should not come out in the office, it is like coming with a purple crest on your hair</strong></em>"
+at a transgender woman who just had the courage to assert her identity in the workplace. This has caused <strong>serious
+depression</strong> to the poor woman, and felt like <strong>nobody cared about her</strong> and that she should just <strong>leave the company</strong>.</p>
+
+<h2>Childcare policy</h2>
+
+<p>Unfortunately, non married couples, LGBTQIA+ couples or polyamorous polycules <strong>do not get legal recognition of their
+children</strong>, if they were not "actively" involved into making them (adoption, foster care, IVF, etc...).</p>
+
+<p>An <strong>inclusive company should recognise</strong> this and help those families by recognising those children that the law won't
+recognise. Give your employees the <strong>right to time off to take care of their children</strong>, to bring them or take them from
+school and other activities, as if they were legally recognised by law, this will allow for a happier and healthier
+workplace.</p>
+
+<h2>Education policy</h2>
+
+<p>All <strong>employees and business owners</strong> should be educated about <strong>what being LGBTQIA+ means</strong>, especially about trans
+people. There's still a lot of <strong>stigma</strong> around transgender people, thinking that transgender people are only female
+looking <strong>AMAB</strong> individuals who perform the oldest job in the world. There is also a lot of <strong>confusion</strong> about the
+difference between a <strong>drag queen</strong>, a <strong>transgender woman</strong> and a <strong>transvestite</strong>:</p>
+
+<ol>
+<li>a Transgender woman is a woman, period.</li>
+<li>a Drag Queen is a character, non the person behind the character, who performs with extreme make-up and dresses.</li>
+<li>a Transvestite, or crossdresser, is a person who enjoys dressing in what is considered other gender's clothes, this
+could be a man, knowing he is a man, with feminine clothes or a woman, knowing she is a woman, with masculine
+clothes.</li>
+</ol>
+
+<p>Please consider reaching out to StonewallFoundation.org, Stonewall.org.uk, MermaidsUK.org.uk, ArciGay Italia,
+ParksDiversity.eu or similar entities in your country to find out about dedicated courses.</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://italianprogrammer.pizza/2022/01/21/inclusivita-sul-lavoro-e-dipendenti-transgender</id>
+    <link type="text/html" rel="alternate" href="https://italianprogrammer.pizza/2022/01/21/inclusivita-sul-lavoro-e-dipendenti-transgender" />
+    <title>Inclusività sul lavoro e dipendenti Transgender</title>
+    <published>2022-01-21T09:34:32+00:00</published>
+    <updated>2022-01-21T09:34:32+00:00</updated>
+    <author>
+        <name>Sofia Vicedomini</name>
+    </author>
+    <summary type="html">Sei un responsabile HR e stai assumendo un nuovo dipendente che è una persona Trans* e/o Non-Binary e ti chiedi come gestire la situazione, ecco alcuni consigli pratici e veloci per rendere il tutto più facile possibile!...</summary>
+    <content type="html"><![CDATA[
+        <p>Sei un responsabile HR e stai assumendo un nuovo dipendente che è una persona Trans* e/o Non-Binary e ti chiedi come gestire la situazione, ecco alcuni consigli pratici e veloci per rendere il tutto più facile possibile!</p>
+
+<h2>Il Nome e i pronomi</h2>
+
+<p>Il nome è la cosa più importante per una persona, è parte della propria identità, per questo è importante rispettare 
+il nome delle persone, soprattutto le persone transgender.</p>
+
+<p>Non usare il nome presente sui documenti, chiedi alla persona quale nome utilizzare, senza specificare quello che 
+leggi nei documenti, perché, molto spesso, sentire, scrivere, leggere o pronunciare quel nome, causa dolore, forte dolore.</p>
+
+<p>La stessa cosa vale per i pronomi, non usare “lui” o “lei” a secondo della semplice apparenza della persona, 
+purtroppo da piccoli ci hanno insegnato a fare così, ma è fondamentalmente sbagliato: una persona può avere 
+una espressione di genere particolare, quindi, è sempre corretto <strong>chiedere prima quali pronomi utilizzare</strong>.</p>
+
+<p>Purtroppo, per come è organizzato il sistema giuridico italiano (ma anche quello di alcuni altri stati nel mondo), 
+poter aggiornare il nome e marcatore sessuale sui propri documenti è estremamente costoso 
+(si parla di una media di <strong>3.500 euro in spese legali</strong> in Italia), quindi ci ritroviamo in situazioni in cui il nome 
+di una persona non coincide con il suo documento di identità.</p>
+
+<p>Come si gestisce questa situazione? Vi racconto come viene gestita da alcune grandi aziende che operano in Italia.</p>
+
+<p>Si inizia con il <strong>contratto di lavoro</strong>. Sul contratto di lavoro bisognerà, per ovvi motivi, scrivere il nome presente sul documento anagrafico. 
+Ma ricordiamoci di comunicare con il dipendente sempre con il suo <strong>nome eletto</strong>.</p>
+
+<p>Firmato il contratto, il dipendente dovrà firmare un “Atto di Notorietà” in cui autocertifica l’intezione di usare un nome diverso.
+(<a href="/assets/attachment/01FWDT3VB80V3NDMSAGGE73SR3/modello.pdf">Modello PDF</a> — <a href="/assets/attachment/01FWDT3VB80V3NDMSAGGE73SR3/modello.docx">Modello Word</a>)</p>
+
+<p>Da ora in poi, ogni singola interazione con il dipendente, anche sui documenti, può essere fatta con il nome eletto, 
+avendo, per iscritto, una certificazione dell’utilizzo di un nome diverso.</p>
+
+<p>Poi arriva la questione <strong>buoni pasto</strong>, con questo dovete comunicare con l’azienda emettitrice quale sia la 
+procedura da seguire per poter inserire il nome eletto della persona. Seguono dei casi che mi sono stati raccontati 
+(scrivete nei commenti se ci sono evoluzioni con altre compagnie, sarò felice di aggiungere i dettagli a questa lista)</p>
+
+<h4>TicketRestaurant</h4>
+
+<p>Con TicketRestaurant, di Edenred, basterà saltare il codice fiscale — può tornare utile selezionare 
+la nazione di nascita “A” invece di una nazione effettiva. Per il portale dipendenti ho fatto una guida specifica a <a href="/2022/01/18/come-registrarsi-sulla-app-ticketrestaurant-con-il-nome-di-elezione">questo link</a>.</p>
+
+<hr />
+
+<p>Da qui in avanti, ogni badge e identificativo della persona, inclusa la casella email, <strong>deve avere il nome eletto</strong>, 
+e questa persona deve poter accedere ai servizi sanitari per la <strong>propria identità di genere</strong>. 
+È opportuno fornire anche (o solo) dei sanitari “genderless”, dove non c’è restrizione di genere per entrare.</p>
+
+<div class="flex justify-center align-center">
+ <img src="/assets/img/01FWDT3VB80V3NDMSAGGE73SR3/bathroom.jpeg" alt="Bathroom for all genders" />
+</div>
+
+<p>In azienda, bisognerà, se non si è già fatto, fornire training sull’inclusione delle minoranze, 
+incluse le minoranze T e NB. Consiglio caldamente di chiedere consiglio ai circoli <a href="https://www.arcigay.it/">ArciGay</a> locali per maggior supporto.</p>
+
+<p>Ogni tipo di <strong>discriminazione</strong>, dovrà essere <strong>seriamente punita</strong> dall’azienda, e bisogna sempre fornire un ambiente di lavoro sano ed inclusivo.</p>
+
+<p>Dovete sempre ricordare che ogni dipendente è un <strong>essere umano</strong> con dei <strong>sentimenti e delle emozioni</strong>, 
+e situazioni di discriminazione ridurranno la sua capacità di lavorare, fino al punto in cui potrebbe 
+decidere di andarsene dalla vostra azienda e lavorare per una azienda competitor.</p>
+
+<p>Quindi, non solo la discriminazione lede il lavoratore, ma lede anche l’azienda stessa.</p>
+
+<p>Cosa ne pensate? Avete altri suggerimenti? Lasciate le vostre idee nei commenti.</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://italianprogrammer.pizza/2022/01/19/cosa-significa-essere-transgender</id>
+    <link type="text/html" rel="alternate" href="https://italianprogrammer.pizza/2022/01/19/cosa-significa-essere-transgender" />
+    <title>Cosa significa essere Transgender</title>
+    <published>2022-01-19T09:17:13+00:00</published>
+    <updated>2022-01-19T09:17:13+00:00</updated>
+    <author>
+        <name>Sofia Vicedomini</name>
+    </author>
+    <summary type="html">Spesso, in Italia, c’è tanta confusione con i termini transgender, transessuale, non binario, identità di genere e “gender”; così tanta che alcune forze politiche ne hanno approfittato per giustificare la negazione di diritti a una delle minoranze più martoriate del nostro pianeta....</summary>
+    <content type="html"><![CDATA[
+        <p>Spesso, in Italia, c’è tanta confusione con i termini transgender, transessuale, non binario, identità di genere e
+“gender”; così tanta che alcune forze politiche ne hanno approfittato per giustificare
+la <a href="https://metropolitanmagazine.it/ddl-zan-manifestazioni-a-roma-e-milano-contro-la-bocciatura/">negazione di diritti</a>
+a una
+delle <a href="https://metropolitanmagazine.it/poe-black-ennesima-morte-di-una-persona-transgender-nel-silenzio/">minoranze</a> più
+martoriate del nostro pianeta.</p>
+
+<p>Forse vi ricorderete, dalle lezioni di Geografia delle elementari, i termini “Transalpino” (oltre le Alpi) e
+“Cisalpino” (da questo lato delle Alpi), e noterete anche qui i prefissi trans e cis; e cosa significano prefissi, nel
+dettaglio? Chiediamo aiuto alla Treccani:</p>
+
+<ul>
+<li>Trans: al di là, attraverso;</li>
+<li>Cis: di qua.</li>
+</ul>
+
+<p>Da queste informazioni possiamo capire il significato di transgender e cisgender. Dove una persona transgender è quella
+persona la cui identità di genere è al di là (diversa) di quella supposta alla nascita, mentre una persona cisgender è
+una persona la cui identità di genere è al di qua (uguale) a quella supposta alla nascita. Transessuale e Cissessuale,
+quindi seguono lo stesso pattern, ma con “il sesso”, gli organi genitali e/o gli ormoni, ma questi termini sono
+obsoleti, e ignorano tutte le persone che non possono/vogliono operarsi e/o prendere ormoni. Transessuale, inoltre, ha
+una accezione negativa nel mondo moderno e viene spesso considerato discriminatorio e offensivo come termine.</p>
+
+<h2>Gender e identità di genere cosa sono allora?</h2>
+
+<p>Beh, partiamo con gender, la parola inglese per “genere”. Semplice, no?</p>
+
+<p>La nostra società moderna, basata su valori estremamente limitati derivati da religioni abraimiche
+(“Il Dio di Abramo”, come spesso ci viene raccontato nel libro dell’Esodo) come Cristianesimo, Islam e Ebraismo, ignora
+la complessità dei sessi, che sono più di due<sup><a href="#ref_1">1</a></sup>, e dei generi, anch’essi più di
+due<sup><a href="#ref_2">2</a></sup> e soprattutto cosa totalmente diversa dal sesso Spesso pensiamo all’identità di genere come
+uguale al sesso perché, nella nostra società che semplifica tutto fino a ridurre la vera complessità umana alla
+banalità, nella maggior parte dei casi ciò combacia. In realtà, per alcune persone, non combacia affatto.</p>
+
+<p>L’identità di genere è la consapevolezza di chi sei, del tuo genere, a prescindere da qualunque sia il tuo sesso.
+Quindi, semplificando, una persona che sa di essere donna, ma è nata con genitali solitamente associati al sesso
+maschile, è transgender; mentre una persona che sa di essere donna ed è nata con genitali solitamente associati al sesso
+femminile, è cisgender. L’identità di genere si forma nei bambini, intorno alla età dei tre anni<sup><a href="#ref_3">3</a></sup> e
+si stima che nello 0.6% della popolazione
+(quindi circa 48 milioni su 7,9 miliardi di persone, l’equivalente di due terzi della popolazione Italiana) è
+transgender.</p>
+
+<p>E non binario? È un insieme d’identità di genere, quelle che non rientrano nel binarismo “uomo-donna”. C’è chi si sente
+in parte una delle due, chi si sente entrambe le due, chi nessuna delle due e chi tutt’altro. Un classico esempio sono
+le persone “Two Spirit” nella cultura dei nativi americani, persone e culture che esistono da prima che noi europei
+arrivassimo a colonizzare, uccidere, schiavizzare e convertire al cristianesimo le persone native con le missioni
+iniziate da Cristoforo Colombo.</p>
+
+<h2>Cosa significa davvero essere transgender? La mia Storia</h2>
+
+<p>Vi racconto la mia storia personale, perché non c’è una risposta unica a questa domanda, ma ogni persona ha la sua
+personale e diversa storia.</p>
+
+<p>Nacqui in Italia, a Roma, 26 anni fa, nel dicembre del 1995. Ero una giovane bambina di circa 4 chili ma i dottori,
+all’epoca, solo perché nacqui con gonadi esterne e un pene, mi classificarono come “maschio”. Nulla poteva essere più
+lontano dalla realtà. La cosa più bella di quel periodo sono sicuramente i racconti di mia madre su come, tenendomi in
+braccio, in quella stanza di ospedale, vedeva insieme a me i fuochi d’artificio di Capodanno brillare sopra i pini di
+Roma.</p>
+
+<p>Gli anni passano, e i miei primissimi ricordi sono i traumi subiti nella scuola materna, quando mi forzavano a mangiare,
+i compagni mi prendevano in giro e, soprattutto, ricordo la mia sensazione di estremo disagio nel vestire il grembiule
+blu.</p>
+
+<div class="flex justify-center align-center">
+ <img src="/assets/img/01FWDS3XPMKFEAHA0E4DEJK4XH/transfreedommarch2021.jpeg" alt="Transgender Freedom March 2021" />
+</div>
+
+<h2>Essere transgender: il percorso scolastico</h2>
+
+<p>Intorno ai 7 anni espressi il mio sentimento di voler essere donna ad alcuni “amichetti” dell’epoca e tutti mi risposero
+con disgusto e disprezzo, cosa che mi portò a non parlarne più. Avevo movenze più “effeminate”, mettevo in dubbio i
+ruoli sociali di bambini e bambine, motivi che, in aggiunta alla mia stazza
+(che con l’inizio della pubertà aumentò e non poco) portarono me a essere soggetta a bulli di ogni tipo.</p>
+
+<p>Andavo male a scuola, al punto che alcuni professori delle medie mi deridevano in classe. Dissero a mia madre che io non
+sarei mai riuscita a realizzare nulla. Ero troppo stupida, secondo loro. Tutto ciò mi portò a chiudermi in me stessa, a
+negare me stessa e a cercare di mascolinizzarmi il più possibile.</p>
+
+<p>Ricordo bene quando espressi la mia volontà di frequentare l’ITIS in Informatica, data la mia passione per i computer e
+i videogiochi e la mia esperienza a casa nel programmare in Pascal, Fortran e Visual Basic (mai ringrazierò abbastanza
+mio zio e mio padre per avermi fatto appassionare a tutto ciò). La Preside della mia scuola media mi chiamò, mi
+interrogò sul programma di matematica dell’ultimo anno e mi disse chiaro e tondo: “Tu non sai fare le espressioni, non
+puoi andare all’ITIS, non sei adatto”.</p>
+
+<p>Mia madre, una donna estremamente forte e indipendente da cui prendo tanta ispirazione, lottò per non farmi bocciare e
+mi iscrisse all’ITIS, come io volevo.</p>
+
+<h2>Essere transgender: l’adolescenza</h2>
+
+<p>Tutto d’un tratto iniziarono le superiori, io ero diventata una persona assolutamente timida e introversa, evitavo le
+persone quanto più possibile e non avevo amici. Avevo però dei professori fantastici, specialmente a Matematica e a
+“Statistica, Calcolo Probabilistico e Ricerca Operativa”, che mi fecero appassionare alle loro materie, facendomi
+recuperare enormi lacune dovute ai miei problemi nelle scuole primarie e secondarie di primo grado.</p>
+
+<p>Diventai una delle persone più adorate della mia classe dagli insegnanti, nelle materie d’indirizzo come “Informatica” e
+“Sistemi e Reti”, nelle quali raggiungevo senza problemi la media del 9 o del 10. Iniziai ad avere qualche amicizia,
+soprattutto nel mondo degli appassionati di fumetti e animazione giapponese (Manga e Anime, per intenderci) tanto che
+frequentavo ogni anno il Roma Comics and Games (“Romics”).</p>
+
+<p>Ricordo il mio disagio, quando tutti iniziarono a parlare di sesso per davvero e sulle pressioni che ricevevo perché
+avrei dovuto “farlo” anche io. Ricordo vividamente il mio compagno di banco, in terzo superiore, dirmi queste parole:
+“Devi trovare una ragazza grassa, insicura, vedrai che inizierà a fidarsi di te e te la farai”. Crebbi, di fatto negando
+me e rafforzando queste visioni misogine e machiste, fino alla quasi radicalizzazione verso il diventare “incel”.</p>
+
+<p>Per fortuna iniziai a fare teatro, finito l’ITIS, attività che mi portò con i piedi per terra. Mi aiutò con i miei
+problemi relazionali e mi de-radicalizzò sostanziosamente, anche se non del tutto. Ricordo con tanta emozione il primo
+spettacolo che portai sul palco, Il Piccolo Principe, a Velletri, dove interpretavo “Il Lampionaio”. Ricordo quando mi
+fecero per la prima volta il make-up e provai una euforia mai sentita prima. Così in ogni spettacolo stavo bene,
+soprattutto quando dovevo avere del make-up, ma ero ancora lontana dal capire veramente cosa stesse succedendo nella mia
+testa.</p>
+
+<h2>Una nuova prospettiva</h2>
+
+<p>Iniziai a lavorare nel mondo dell’Informatica come Sviluppatore Software e questo mi ha portato lontano:
+ho avuto una start-up, un sacco di problemi, ma anche altrettante soddisfazioni. Fino a quando mi trasferii in Scozia
+nel 2018. Provai il cosiddetto cultural shock. La cultura scozzese è estremamente più aperta di quella italiana e
+soprattutto molto più inclusiva di ogni identità ed espressione. Ancora ricordo un padre di famiglia che portò le sue
+gemelline in un caffè vestito con dei leggins con disegni di unicorni, una t-shirt, una barba rossa e folta e
+soprattutto super truccato, probabilmente dalle sue bambine. Non mostrava né vergogna né imbarazzo, anzi, girava fiero
+della vena artistica delle sue figlie per Edimburgo.</p>
+
+<p>Senza problemi le persone giravano con i vestiti più disparati e ricordo, su un bus, di aver conosciuto la prima persona
+transgender nella mia vita. Questo mi portò a fare delle ricerche e riscoprire dei sentimenti che per troppi anni avevo
+seppellito dentro di me. A quell’epoca io avevo la testa pelata e una barba da far invidia ai talebani. Vidi i vlog di
+Stef Sanjati, una youtuber canadese che ha registrato tutto il suo processo di transizione e raccontato nel dettaglio
+ogni cosa. Fu lei ad aprirmi un mondo e comprai per la prima volta del make-up.</p>
+
+<p>Passai giorni a studiare come mettere l’eyeliner, lo mettevo, toglievo, e rimettevo. Chissà quanti ne avrò consumati!
+Comprai parrucche per sentirmi più a mio agio, mi rasai completamente ogni cosa, e piano piano diventavo sempre più
+felice e meno arrabbiata.</p>
+
+<p>I mesi passavano e verso la fine di dicembre del 2018, in coincidenza con il mio compleanno, arrivai alla realizzazione
+che, anche io, ero transgender. Iniziai a esplorare, comprare vestiti, parrucche, trucchi. Andai in un centro estetico
+e, tramite Groupon mi pagai la rimozione dei peli sul viso con il laser. Un dolore atroce a ogni seduta, ma dopo ne
+uscivo felice.</p>
+
+<p>Trovai il coraggio di affrontare il discorso con il mio GP (NdA. general practitioner, il medico di base), che mi mise
+in lista di attesa per la Gender Identity Clinic di Edimburgo al Chalmers Hospital. La lista di attesa però era lunga,
+circa 14 mesi e decisi di pagarmi da me le visite. Grazie a una clinica privata, che mi fece fare la perizia
+psichiatrica, mi diagnosticarono il “gender identity disorder”, che essenzialmente metteva nero su bianco la mia verità.</p>
+
+<p>Il Primo Agosto 2019 iniziai ufficialmente la terapia ormonale sostitutiva e mai fui più felice. Iniziai finalmente a
+sentirmi, ancora di più, me stessa.</p>
+
+<h4>Fonti</h4>
+
+<p><a id="ref_1"></a>
+&#91;1]: <a href="https://www.scientificamerican.com/article/sex-redefined-the-idea-of-2-sexes-is-overly-simplistic1/">Scientific American - Sex Redefined: The Idea of 2 Sexes Is Overly Simplistic</a></p>
+
+<p><a id="ref_2"></a>
+&#91;2]: Chapter 3 — Gender, Sex, and Sexualities: Psychological Perspectives — by Nancy Kimberly Dess, Jeanne Marecek,
+Leslie C. Bell; Oxford University — ISBN <a href="https://amzn.to/32cROXr">9780190658540</a></p>
+
+<p><a id="ref_3"></a>
+&#91;3]: <a href="https://www.mayoclinic.org/healthy-lifestyle/childrens-health/in-depth/children-and-gender-identity/art-20266811">Mayo Clinic - Children and gender identity: Supporting your child</a></p>
+
+<p>Originariamente pubblicato il 22 Novembre 2021
+su <a href="https://metropolitanmagazine.it/essere-transgender-cosa-significa-la-mia-storia/">Brave di Metropolitan Magazine</a>.</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://italianprogrammer.pizza/2022/01/18/come-registrarsi-sulla-app-ticketrestaurant-con-il-nome-di-elezione</id>
+    <link type="text/html" rel="alternate" href="https://italianprogrammer.pizza/2022/01/18/come-registrarsi-sulla-app-ticketrestaurant-con-il-nome-di-elezione" />
+    <title>Come Registrarsi sulla app TicketRestaurant con il nome di elezione</title>
+    <published>2022-01-18T18:02:38+00:00</published>
+    <updated>2022-01-18T18:02:38+00:00</updated>
+    <author>
+        <name>Sofia Vicedomini</name>
+    </author>
+    <summary type="html">La vostra azienda è super inclusive e sulla vostra TicketRestaurant ha messo già il vostro nome di elezione, fantastico! Ma ora, c&#039;è da scaricare la app di Edenrend per TicketRestaurant...</summary>
+    <content type="html"><![CDATA[
+        <p>La vostra azienda è super inclusive e sulla vostra TicketRestaurant ha 
+messo già il vostro nome di elezione, fantastico! Ma ora, c'è da 
+scaricare la app di Edenrend per TicketRestaurant. 
+(<a href="https://play.google.com/store/apps/details?id=com.edenred.mobiletr&amp;gl=IT">Google Play</a> - <a href="https://apps.apple.com/it/app/ticket-restaurant/id1027782759">App Store</a>)</p>
+
+<p>Il problema è che in fase di registrazione (<a href="https://beneficiari.edenred.it/registrazione">Portale Beneficiari — Registrazione</a>) valida il codice fiscale con i dati inseriti, e il codice fiscale non combacia sempre con il nostro nome e identità di genere — grazie al complicato e lungo sistema giuridico italiano che non permette un veloce cambio dei documenti.</p>
+
+<p>La soluzione è molto semplice, basterà selezionare come nazione di nascita la "A".</p>
+
+<div class="flex justify-center align-center">
+ <img src="/assets/img/01FW9JCRS63ABAVK7PF7BXPCWR/registrazione.jpeg" alt="Imposta la nazione di nascita A" />
+</div>
+
+<p>In questo modo il controllo del codice fiscale non impatterà sui dati da voi immessi e potremmo, in tutta tranquillità, usare la app senza dover cadere nella disforia più assoluta leggendo un nome che non ci appartiene.</p>
+
+<p><strong>Se siete già registrati a ticketRestaurant</strong>, vi basterà andare nella sezione profilo ed aggiornare la nazione di nascita.</p>
+
+<p>Voglio ringraziare il Supporto Clienti di Edenrend che mi ha fornito questa soluzione.</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://italianprogrammer.pizza/2022/01/14/installing-imapsync-on-debian-derived-linux</id>
+    <link type="text/html" rel="alternate" href="https://italianprogrammer.pizza/2022/01/14/installing-imapsync-on-debian-derived-linux" />
+    <title>Installing imapsync on Debian-derived Linux</title>
+    <published>2022-01-14T18:00:08+00:00</published>
+    <updated>2022-01-14T18:00:08+00:00</updated>
+    <author>
+        <name>Sofia Vicedomini</name>
+    </author>
+    <summary type="html">One of the most awesome tools I’ve found in my side job as WebMaster, is imapsync, a fantastic tool to migrate IMAP mailboxes across different providers....</summary>
+    <content type="html"><![CDATA[
+        <p>One of the most awesome tools I’ve found in my side job as WebMaster, is <a href="https://imapsync.lamiral.info/">imapsync</a>, a
+fantastic tool to migrate IMAP mailboxes across different providers.</p>
+
+<p>The main problem tho is that the package does not come pre-compiled, and lacks of proper instructions for installing it,
+if you’re a newbie. Here’s a simple guide on Installing it!</p>
+
+<p>I’ve developed an automated script that will automatically download and install all the dependencies needed and
+automatically installs imapsync in your <code  class="language-bash">/usr/bin</code> directory.</p>
+
+<p>To simply one-click install <code class="language-bash">imapsync</code>, run this:</p>
+
+<pre class="language-bash">
+<code class="language-bash">
+curl https://raw.githubusercontent.com/blacksoulgem95/imapsync-installer/main/installer.sh | sudo bash
+</code>
+</pre>
+
+<p>To check what the script does, here it's hosted on <a href="https://github.com/blacksoulgem95/imapsync-installer">GitHub</a>.</p>
+
+<p>To manually install <code  class="language-bash">imapsync</code>, we’d need to first install its required dependencies.
+Remember to run <code  class="language-bash">sudo apt update &amp;&amp; sudo apt upgrade</code> to update your system before
+proceeding.</p>
+
+<h2>Step 1: Install APT Dependencies</h2>
+
+<pre class="language-bash">
+<code class="language-bash">
+sudo apt-get -y install git rcs make makepasswd cpanminus apt-file
+</code>
+</pre>
+
+<pre class="language-bash">
+<code class="language-bash">
+sudo apt-get -y install gcc libssl-dev libauthen-ntlm-perl \
+libclass-load-perl libcrypt-ssleay-perl liburi-perl \
+libdata-uniqid-perl libdigest-hmac-perl libdist-checkconflicts-perl \
+libfile-copy-recursive-perl libio-compress-perl libio-socket-inet6-perl \
+libio-socket-ssl-perl libio-tee-perl libmail-imapclient-perl \
+libmodule-scandeps-perl libnet-ssleay-perl libpar-packer-perl \
+libreadonly-perl libsys-meminfo-perl libterm-readkey-perl \
+libtest-fatal-perl libtest-mock-guard-perl libtest-pod-perl \
+libtest-requires-perl libtest-simple-perl libunicode-string-perl \
+libencode-imaputf7-perl libfile-tail-perl libregexp-common-perl \
+libregexp-common-email-address-perl libregexp-common-perl \
+libregexp-common-time-perl libtest-deep-fuzzy-perl libtest-deep-perl \
+libtest-deep-json-perl libtest-deep-perl libtest-deep-type-perl \
+libtest-deep-unorderedpairs-perl libtest-modern-perl libtest-most-perl
+</code>
+</pre>
+
+<h2>Step 2: Install Python modules</h2>
+
+<pre class="language-bash">
+<code class="language-bash">
+sudo cpanm Crypt::OpenSSL::RSA Crypt::OpenSSL::Random --force
+sudo cpanm Mail::IMAPClient JSON::WebToken Test::MockObject 
+sudo cpanm Unicode::String Data::Uniqid
+</code>
+</pre>
+
+<h2>Step 3: update apt-cache</h2>
+
+<pre class="language-bash">
+<code class="language-bash">
+apt-file update
+</code>
+</pre>
+
+<h2>Step 4: Clone and build imapsync</h2>
+
+<p>The build process will automatically mount imapsync in your <code  class="language-bash">/usr/bin</code> directory so
+that is ready to use immediately.</p>
+
+<pre class="language-bash">
+<code class="language-bash">
+git clone https://github.com/imapsync/imapsync.git
+cd imapsync
+mkdir -p dist
+sudo make install
+</code>
+</pre>
+
+<p>Now you have a working imapsync on your Debian-based linux distro of your choice 🙂 to run it, try</p>
+
+<pre class="language-bash">
+<code class="language-bash">
+imapsync \
+--host1 mail.host.it \ # from this mail server
+--user1 "info@host.it" \
+--password1 myBeautifulFakePassword \
+--ssl1 \ # the --ssl{1|2} Flag serves to let imapsync know that you're connecting to SSL secured hosts
+--host2 mail.newhost.it \ # to this mail server
+--user2 "info@newhost.it" \
+--password2 anotherBeautifulPassword \
+--ssl2 --addheader # the --addheader helps in copying messages without header (eg. Drafts)
+</code>
+</pre>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://italianprogrammer.pizza/2022/01/13/fighting-with-angular-environments</id>
+    <link type="text/html" rel="alternate" href="https://italianprogrammer.pizza/2022/01/13/fighting-with-angular-environments" />
+    <title>Fighting with Angular Environments</title>
+    <published>2022-01-13T07:00:19+00:00</published>
+    <updated>2022-01-13T07:00:19+00:00</updated>
+    <author>
+        <name>Sofia Vicedomini</name>
+    </author>
+    <summary type="html">Angular has a fantastic way of setting configurations for our application if our application has only one company as its users. But, what if we need to deploy our application, with different variables each time?...</summary>
+    <content type="html"><![CDATA[
+        <p>Angular has a fantastic way of setting configurations for our application if our application has only one company as its users. But, what if we need to deploy our application, with different variables each time? (Like in a white-labeled SaaS deployment or on-prem deployment).</p>
+
+<h2>How Angular Env works</h2>
+
+<p>Angular works through the magic of the <code  class="language-bash">src/environments/environment.ts</code> file, which is substituted every time with the correct version, which lives alongside it.</p>
+
+<p>If you deep dive into the configuration of our <code  class="language-bash">angular.json</code> file you will notice this:</p>
+
+<pre class="language-json">
+<code class="language-json">
+"development": {
+ "buildOptimizer": false,
+ "optimization": false,
+ "vendorChunk": true,
+ "extractLicenses": false,
+ "sourceMap": true,
+ "namedChunks": true,
+ "fileReplacements": [
+   {
+     "replace": "src/environments/environment.ts",
+     "with": "src/environments/environment.dev.ts"
+   }
+ ]
+}
+</code>
+</pre>
+
+<p>As you see, when we deploy for a specific environment, Angular copies it’s environment file and uses it to substitute with the original one, and will be taken by the rest of the application for processing.</p>
+
+<h2>But I can’t have 2000 configuration files around!</h2>
+
+<p>Exactly! That’s the problem we’re going to solve right now.</p>
+
+<p>We will need two (dev) dependencies tho:</p>
+
+<pre class="language-bash">
+<code class="language-bash">
+dotenv
+handlebars
+</code>
+</pre>
+
+<p>you can simply install them through the following code:</p>
+
+<pre class="language-bash">
+<code class="language-bash">
+npm i --save-dev dotenv handlebars
+</code>
+</pre>
+
+<h2>Creating our configuration template</h2>
+
+<p>In the <code class="language-bash">src/environments</code> folder we will create a <code class="language-bash">environment.hbs</code> file, with the following content:</p>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+export const environment = {
+  production: {{PRODUCTION}},
+  apiURL: '{{BACKEND_URL}}',
+  authURL: '{{AUTH_URL}}'
+}
+</code>
+</pre>
+
+<p>Obviously, feel free to adapt it to your needs, remember to refer to the handlebars documentation, which will come quite handy if you’re new to handlebars templating engine.</p>
+
+<h2>Parsing the template</h2>
+
+<p>Now comes the fun part, in the root of your project, let’s create a <code class="langauge-bash">env-config.js</code> file that looks like the following:</p>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+require('dotenv')
+const path = require('path')
+const fs = require('fs')
+const hbs = require('handlebars')
+
+const envPath = path.join(__dirname, 'src', 'environments')
+const templateFilePath = path.join(envPath, 'environment.hbs')
+const environmentFilePath = path.join(envPath, 'environment.ts')
+
+const template = hbs.compile(fs.readFileSync(templateFilePath, { encoding: 'utf-8' }))
+
+const data = {
+  PRODUCTION: process.env.PRODUCTION || false,
+  BACKEND_URL: process.env.BACKEND_URL || 'http://localhost:3000',
+  AUTH_URL: process.env.AUTH_URL || 'http://localhost:3000/auth'
+}
+
+fs.writeFileSync(environmentFilePath, template(data), { encoding: 'utf-8' })
+</code>
+</pre>
+
+<p>What does it do? Let’s go through it together.</p>
+
+<ol>
+<li>Loads the <code  class="language-bash">dotenv</code> library, which will read our <code  class="language-bash">.env</code> file in our local machines and feed it into the <code  class="language-bash">process.env</code> variable.</li>
+<li>Loads our <code  class="language-bash">environment.hbs</code> template file and feeds it into the handlebars compile API, which will return us a function that we can later use to fill in the gaps.</li>
+<li>Configures the data we need to fill in our template, as you might notice, in the object, the key is the keys defined between the <code  class="language-bash">{{</code> and <code  class="language-bash">}}</code> in our handlebars template, handlebars will substitute that key with the value we’re passing in. In here we can also configure defaults for our variables.</li>
+<li>Takes the data we made and sends it to the template ( <code  class="language-bash">template(data)</code> ), then saves it’s content to <code  class="language-bash">src/environments/environment.ts</code></li>
+</ol>
+
+<p>And voilà! Our environment file is ready for our custom n-th environment!</p>
+
+<h2>Processing the template at each build</h2>
+
+<p>We need to create a new script in our <code  class="language-bash">package.json</code> file, let’s call it ‘config’.</p>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+{
+   ...
+   "scripts": {
+     "ng": "ng",
+     "config": "node env-config.js",
+     ...
+   }
+   ...
+}
+</code>
+</pre>
+
+<p>and now, we need to refer to it every time we build or need to serve our application:</p>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+{
+   ...
+   "scripts": {
+     "ng": "ng",
+     "config": "node env-config.js",
+     "start": "npm run config && ng serve --configuration=local",
+     "build": "npm run config && ng build --configuration=production --output-hashing=all",
+     "build-dev": "npm run config && ng build --configuration=development --output-hashing=all",
+     "build-local": "npm run config && ng build --configuration=local",
+     "watch": "npm run config && ng build --watch --configuration local",
+     "test": "npm run config && ng test",
+     ...
+   }
+   ...
+}
+</code>
+</pre>
+
+<p>And here, folks, is how we parametrize the environment of an Angular application through the environment variables of the machines that build it.</p>
+    ]]></content>
+</entry>
+    </feed>
